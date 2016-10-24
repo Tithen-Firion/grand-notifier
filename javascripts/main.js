@@ -362,6 +362,11 @@ function init(RANDOM_SEND_ID, RANDOM_LISTEN_ID) {
     req.send(null);
   })(new XMLHttpRequest());
 
-  // start notification queue
-  handleQueue();
+  Notification.requestPermission().then(function(permission) {
+    if(permission === "granted")
+      // start notification queue
+      handleQueue();
+    else
+      alert("You need to allow notifications to use this.\nRefresh this page.");
+  });
 }
