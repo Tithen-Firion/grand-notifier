@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Grand Notifier</title>
+    <script src="javascripts/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/notifier.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet" crossorigin="anonymous"> 
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Grand Notifier</h1>
+        <p>Displays notifications about new... notifications from several pages.</p>
+        <p class="view"><a href="https://github.com/Tithen-Firion/grand-notifier">View the Project on GitHub <small>Tithen-Firion/grand-notifier</small></a></p>
+        <ul>
+          <li><a href="https://github.com/Tithen-Firion/grand-notifier/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Tithen-Firion/grand-notifier/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Tithen-Firion/grand-notifier">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Grand Notifier</h1>
+        <p>Website + User Script combo that checks several pages and displays notifications when there are new messages/posts/etc. on one of those pages.</p>
+        <h2>How to use</h2>
+        <p>Chrome, Chromium, Opera, and other Chrome-like browser users have to install <a href="https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag">Violent monkey</a> or <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=pl">Tampermonkey</a>.</p>
+        <p>Firefox users have to install <a href="https://addons.mozilla.org/pl/firefox/addon/greasemonkey/">Greasemonkey</a>.</p>
+        <p>After that just install <a href="https://tithen-firion.github.io/grand-notifier/javascripts/grand-notifier.user.js">this User Script</a> and open <a href="https://tithen-firion.github.io/grand-notifier/">this page</a>. That’s all.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Tithen-Firion">Tithen-Firion</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <aside>
+      <div class="notifier hide">
+        <label class="template hide">
+          <input class="checkbox hide" type="checkbox">
+          <i class="fa fa-square-o"></i>
+          <span></span>
+          <i class="fa remove">&#xf00d;</i>
+          <i class="fa config hide">&#xf013;</i>
+        </label>
+        <div class="add button">
+          <i class="fa fa-plus"></i>
+        </div>
+      </div>
+      <div class="overlay hide">
+        <div class="settings">
+          <div class="add-modal hide">
+            <select class="list">
+              <option class="template hide">-</option>
+              <option value="---" disabled selected>Select website</option>
+            </select>
+            <div class="add button">
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+          <div class="global hide">
+            <div class="save button">
+              <i class="fa fa-floppy-o"></i>
+            </div>
+          </div>
+          <div class="module hide">
+            <label class="template hide">
+              <input class="checkbox hide" type="checkbox">
+              <i class="fa fa-square-o"></i>
+              <span></span>
+            </label>
+            <div class="save button">
+              <i class="fa fa-floppy-o"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+aside * {
+    font-family: 'Patua One', sans-serif;
+    transition-duration: 0.5s;
+}
+
+aside span { color: #000; }
+
+.hide { display: none !important; }
+
+.notifier { text-align: center; }
+
+label, div.button {
+    min-width: 350px;
+    display: inline-block;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+}
+label {
+    background-color: #d5eef3;
+    text-align: left;
+}
+label:hover { background-color: #96dbe9; }
+
+div.button { text-align: center; }
+div.add {
+    background-color: #d1f29d;
+    color: #ecffe9;
+}
+div.add:hover { background-color: #94cf36; }
+
+div.save {
+    background-color: #efc085;
+    color: #fbe8ba;
+}
+div.save:hover { background-color: #d78d2e; }
+
+select {
+    min-width: 380px;
+    margin: 5px;
+}
+
+label > span, label > i.fa, div.button > i.fa, select { font-size: 32px; }
+label > span { line-height: 100%; }
+label > i.fa {
+    display: inline-block;
+    width: 32px;
+}
+
+button, label, div.button { cursor: pointer; }
+
+input.checkbox:checked+i.fa-square-o::before { content: "\f046"; color: #153c22; }
+
+label > i.remove, label > i.config {
+    float: right;
+    color: transparent;
+    text-align: center;
+}
+
+label > i.remove:hover, label > i.config:hover { transition-duration: 0.0s }
+label:hover > i.remove, label > i.fa-square-o { color: #3c1518; }
+label > i.remove:hover { color: #a00; }
+label:hover > i.config { color: #3c3315; }
+label > i.config:hover { color: #ad4900; }
+
+div.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    vertical-align: middle;
+}
+div.settings {
+    padding: 20px 0 20px 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.settings > * {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 20px;
+}
+div.settings > *, div.settings > * > * {
+    display: block;
+}
