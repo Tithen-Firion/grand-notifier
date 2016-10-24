@@ -1,2 +1,32 @@
 [
+  {
+    "ID": "disqus",
+    "name": "Disqus",
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/disqus.js",
+    "integrity": "sha384-MXmFCXqgoXXuKULd9VRbSVTuopolzhCc4dOBk1njSDU9qmDvEmKgG5yV2tvgOjSp"
+  },
+  {
+    "ID": "facebook",
+    "name": "Facebook",
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/facebook.js",
+    "integrity": "sha384-PGqfaAqsDS/5LPzHySopFCZEJUUlB6hfRxnSt66pwb6EKBVYg6EK0lQh1gMdF64w"
+  },
+  {
+    "ID": "github",
+    "name": "Github",
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/github.js",
+    "integrity": "sha384-GhyfMI5GY8ZgoSQyELRQP+K8fg5ToZpMyTg0/wN4lZ2sjQNf5X0Yci5bZOWcgcFv"
+  },
+  {
+    "ID": "stackexchange",
+    "name": "StackExchange",
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/stackexchange.js",
+    "integrity": "sha384-y1e9rEIW73LLXkcmZm3ZdQcrPmJOaH8Y8qKZ/TwuCaQU/LMoo6B9epJercIe3xX8"
+  },
+  {
+    "ID": "steam",
+    "name": "Steam",
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/steam.js",
+    "integrity": "sha384-Dyo30iiLb8vtNBCzQkwlm87TRzQ89dnWhyD4NeDn+a20CnS12pkCoBx7AlQROEq9"
+  }
 ]
