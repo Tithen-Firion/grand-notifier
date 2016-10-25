@@ -1,5 +1,11 @@
 [
   {
+    "ID": "deviantart",
+    "name": "DeviantArt",
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/4719001000e077d047e8d55ecc768c4fc06b7fff/modules/deviantart.js",
+    "integrity": "sha384-Ir1kwGM97v223JMvS+bnJTyjvpZvd3dAOPzxlsObZrcFcPIO2U9YPEqPG4Aoxwm7"
+  },
+  {
     "ID": "disqus",
     "name": "Disqus",
     "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/disqus.js",
@@ -18,6 +24,12 @@
     "integrity": "sha384-GhyfMI5GY8ZgoSQyELRQP+K8fg5ToZpMyTg0/wN4lZ2sjQNf5X0Yci5bZOWcgcFv"
   },
   {
+    "ID": "instagram",
+    "name": "Instagram",
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/4719001000e077d047e8d55ecc768c4fc06b7fff/modules/instagram.js",
+    "integrity": "sha384-h9agnYMIcPA6qN1x+qsHuuLKEXlJxHP/kCol6JgeALPyI5B4whlYn2AZlE2htr4O"
+  },
+  {
     "ID": "stackexchange",
     "name": "StackExchange",
     "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/stackexchange.js",
@@ -28,5 +40,11 @@
     "name": "Steam",
     "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/steam.js",
     "integrity": "sha384-Dyo30iiLb8vtNBCzQkwlm87TRzQ89dnWhyD4NeDn+a20CnS12pkCoBx7AlQROEq9"
+  },
+  {
+    "ID": "weheartit",
+    "name": "We Heart It",
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/4719001000e077d047e8d55ecc768c4fc06b7fff/modules/weheartit.js",
+    "integrity": "sha384-RakHolIJ7fHhE4aZUIN6vPmZArRumH6THUob0oEQNRImdhHcKqwm6+Qik1JlsloE"
   }
 ]
