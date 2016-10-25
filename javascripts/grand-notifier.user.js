@@ -5,7 +5,7 @@
 // @downloadURL https://tithen-firion.github.io/grand-notifier/javascripts/grand-notifier.user.js
 // @updateURL   https://tithen-firion.github.io/grand-notifier/javascripts/grand-notifier.meta.js
 // @include     https://tithen-firion.github.io/grand-notifier/
-// @version     1
+// @version     1.0.1
 // @grant       GM_xmlhttpRequest
 // ==/UserScript==
 
@@ -23,7 +23,7 @@ function processMessage(e) {
   xhr = {
     method: data.method,
     url: data.url,
-    timeout: data.timeout * 1000,
+    timeout: data.timeout * 1000
   };
   xhr.onload = sendMessage.bind(this, data.ID, "load");
   xhr.onerror = sendMessage.bind(this, data.ID, "error");
