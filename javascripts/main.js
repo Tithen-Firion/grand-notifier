@@ -30,6 +30,22 @@ function init(RANDOM_SEND_ID, RANDOM_LISTEN_ID) {
       }
     }
 
+    notify(i) {
+      if(!this.settings || this.settings[i])
+       notificationsQueue.push([this.name, this.messages[i], combineURL(this.URLs[i], this.baseURL), this.icon]);
+    }
+
+    loadModuleData(name) {
+      if(typeof this.data === "undefined")
+        this.data = loadJSONfromLocalStorage(this.ID + "-data", "{}");
+      return this.data[name];
+    }
+
+    saveModuleData(name, value) {
+      this.data[name] = value;
+      saveToLocalStorageAsJSON(this.ID + "-data", this.data);
+    }
+
     addCheckBox() {
       if(document.getElementById(this.ID))
         throw "Setting already added";
@@ -56,10 +72,9 @@ function init(RANDOM_SEND_ID, RANDOM_LISTEN_ID) {
       // load module settings
       this.settings = loadJSONfromLocalStorage(this.ID + "-settings", "null");
       // add common methods and missing properties
-      this._.notify = function(i) {
-        if(!this.settings || this.settings[i])
-          notificationsQueue.push([this.name, this.messages[i], combineURL(this.URLs[i], this.baseURL), this.icon]);
-      };
+      this._.notify = this.notify;
+      this._.load = this.loadModuleData.bind(this);
+      this._.save = this.saveModuleData.bind(this);
       if(!this._.URLs)
         this._.URLs = [];
       if(!this._.method)
@@ -342,6 +357,7 @@ function init(RANDOM_SEND_ID, RANDOM_LISTEN_ID) {
   (function(req) {
     var list = document.querySelector(".list"),
     optionTemplate = list.querySelector(".template");
+    list.removeChild(optionTemplate);
     req.open("GET", "modules.json", true);
     req.responseType = 'json';
     req.onload = function() {
