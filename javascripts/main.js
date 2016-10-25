@@ -32,7 +32,7 @@ function init(RANDOM_SEND_ID, RANDOM_LISTEN_ID) {
 
     notify(i) {
       if(!this.settings || this.settings[i])
-       notificationsQueue.push([this.name, this.messages[i], combineURL(this.URLs[i], this.baseURL), this.icon]);
+       notificationsQueue.push([this._.name, this._.messages[i], combineURL(this._.URLs[i], this._.baseURL), this._.icon]);
     }
 
     loadModuleData(name) {
@@ -72,7 +72,7 @@ function init(RANDOM_SEND_ID, RANDOM_LISTEN_ID) {
       // load module settings
       this.settings = loadJSONfromLocalStorage(this.ID + "-settings", "null");
       // add common methods and missing properties
-      this._.notify = this.notify;
+      this._.notify = this.notify.bind(this);
       this._.load = this.loadModuleData.bind(this);
       this._.save = this.saveModuleData.bind(this);
       if(!this._.URLs)
