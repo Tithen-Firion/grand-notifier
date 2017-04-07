@@ -26,8 +26,8 @@
   {
     "ID": "greasyfork",
     "name": "Greasy Fork",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/fd589a66fd69141725317a13090aff7c3e3df760/modules/greasyfork.js",
-    "integrity": "sha384-xv0WUMNfpq0JuFJNsZQ1LyyE3/SIy3Hw2sDbAo6Hq13bkaB9dnsqea/NN29IPIOG"
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ad677423fa220494207eb419c4e16aa01598210/modules/greasyfork.js",
+    "integrity": "sha384-44ohJTsJ6WcClIw2NjaL3/21/5wovhudFe6e5z3fzElSqwNFHujmiCAyyJEiRZb9"
   },
   {
     "ID": "instagram",
@@ -38,8 +38,8 @@
   {
     "ID": "stackexchange",
     "name": "StackExchange",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/stackexchange.js",
-    "integrity": "sha384-y1e9rEIW73LLXkcmZm3ZdQcrPmJOaH8Y8qKZ/TwuCaQU/LMoo6B9epJercIe3xX8"
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ad677423fa220494207eb419c4e16aa01598210/modules/stackexchange.js",
+    "integrity": "sha384-3fOWxvhFZJ9T1EGzs5Cx/Scv3kVTuWJoddEsaDBvaESOTOfUCTpx61GEAUzERDLA"
   },
   {
     "ID": "steam",
