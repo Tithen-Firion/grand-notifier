@@ -6,6 +6,7 @@ var greasyfork = {
   loginURL: "/users/sign_in",
   messages: ["New notification.", "New inbox message."],
   URLs: ["/forum/profile/notifications", "/forum/messages/all"],
+  config: ["Notifications", "Messages"],
   classes: ["Notifications", "Inbox"],
   process: function() {
     this.classes.forEach(function(class_, i) {

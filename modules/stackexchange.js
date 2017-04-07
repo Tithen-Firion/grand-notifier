@@ -6,6 +6,7 @@ var stackexchange = {
   loginURL: "/users/login",
   messages: ["New inbox message.", "New reputation.", "New achievement."],
   URLs: ["/users/current?tab=inbox", "/users/current?tab=reputation", "/users/current?tab=activity"],
+  config: ["Messages", "Reputation", "Achievements"],
   IDs: ["UnreadInboxCount", "UnreadRepCount", "UnreadNonRepCount"],
   process: function(xhr) {
     this.IDs.forEach(this.processID, this);
