@@ -12,7 +12,7 @@ var greasyfork = {
     this.classes.forEach(function(class_, i) {
       if(this.document.querySelector(".Sp" + class_ + "+em+span"))
         this.notify(i);
-    });
+    }, this);
   },
   loggedIn: function() {
     return !this.document.querySelector(".SignInPopup");
