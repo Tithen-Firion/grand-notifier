@@ -2,11 +2,11 @@
 // @name        Grand Notifier
 // @descriptopn Notifies about new notifications from various websites
 // @namespace   tithen-firion.github.io
-// @downloadURL https://tithen-firion.github.io/grand-notifier/javascripts/grand-notifier.user.js
-// @updateURL   https://tithen-firion.github.io/grand-notifier/javascripts/grand-notifier.meta.js
 // @include     https://tithen-firion.github.io/grand-notifier/
-// @version     1.0.1
+// @version     1.0.2
+// @require     https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // @grant       GM_xmlhttpRequest
+// @grant       GM.xmlHttpRequest
 // ==/UserScript==
 
 // generate two random IDs for communicating with JS on page
@@ -29,7 +29,7 @@ function processMessage(e) {
   xhr.onerror = sendMessage.bind(this, data.ID, "error");
   xhr.ontimeout = sendMessage.bind(this, data.ID, "timeout");
   // download cross origin page
-  GM_xmlhttpRequest(xhr);
+  GM.xmlHttpRequest(xhr);
 }
 // send data back to page
 function sendMessage(ID, type, xhr) {
