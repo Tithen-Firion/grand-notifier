@@ -20,8 +20,8 @@
   {
     "ID": "github",
     "name": "Github",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/github.js",
-    "integrity": "sha384-GhyfMI5GY8ZgoSQyELRQP+K8fg5ToZpMyTg0/wN4lZ2sjQNf5X0Yci5bZOWcgcFv"
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/28a3936fded94155d8b1cdb80c336fb7779b1a5e/modules/github.js",
+    "integrity": "sha384-SNC6iN4blwMgIyLco92aUsONyf2MrPJNABUjaV545vgF2bzoDLJLXPxBHI/E5y9B"
   },
   {
     "ID": "greasyfork",
