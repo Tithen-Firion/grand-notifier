@@ -24,7 +24,7 @@ var facebook = {
     this.IDs.forEach(this.processID, this);
   },
   loggedIn: function(xhr) {
-    return xhr.finalUrl.indexOf(this.loginURL) === -1;
+    return !xhr.responseText.match(/facebook\.com\/login\//);
   },
   processID: function(ID, i) {
     var notificationElement = this.document.getElementById(ID);

@@ -7,10 +7,10 @@ var disqus = {
   messages: ["New notification."],
   URLs: ["/home/inbox/"],
   process: function() {
-    if(this.json.response > 0)
+    if(this.json.code === 0 && this.json.response > 0)
       this.notify(0);
   },
   loggedIn: function() {
-    return this.json.code === 0;
+    return this.json.code !== 4;
   }
 };
