@@ -32,8 +32,8 @@
   {
     "ID": "instagram",
     "name": "Instagram",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/4719001000e077d047e8d55ecc768c4fc06b7fff/modules/instagram.js",
-    "integrity": "sha384-h9agnYMIcPA6qN1x+qsHuuLKEXlJxHP/kCol6JgeALPyI5B4whlYn2AZlE2htr4O"
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/822f1954f1f3020620ecfec77ae0abffd7a2eb9f/modules/instagram.js",
+    "integrity": "sha384-Ai0ckCwvHQ25Sspbxjlb3ERAmgNAp/A8Z/Kd1pzTD5Np0wTA/xjKrp9MTCpMBf2P"
   },
   {
     "ID": "stackexchange",
