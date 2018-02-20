@@ -1,4 +1,8 @@
+var timeoutID = window.setTimeout(window.location.reload.bind(window.location), 60000, false);
+
 function init(RANDOM_SEND_ID, RANDOM_LISTEN_ID) {
+  window.clearTimeout(timeoutID);
+
   /* MODULE */
 
   class Module {
