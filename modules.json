@@ -26,8 +26,8 @@
   {
     "ID": "greasyfork",
     "name": "Greasy Fork",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/2068c2243bdd0ee31454e2bc8d2553360bf4de43/modules/greasyfork.js",
-    "integrity": "sha384-mcuIqeO//cOsQfl4/8gjGWnmGwrKJcm+6w+MnE58HpO6fq/OIUgP+jcXdyF+Svc9"
+    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/61ddd4468ea6cec9bb95b8480b33e82e329fde7c/modules/greasyfork.js",
+    "integrity": "sha384-P14HzwTV/IWKLnyzZq3TvMnVfgPy+OORftJR3pX9zll8N+Ag9GgGzmSRI/7/K4St"
   },
   {
     "ID": "instagram",
