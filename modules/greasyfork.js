@@ -10,11 +10,11 @@ var greasyfork = {
   classes: ["Notifications", "Inbox"],
   process: function() {
     this.classes.forEach(function(class_, i) {
-      if(this.document.querySelector(".Sp" + class_ + "+em+span"))
+      if(this.document.querySelector(".Sp" + class_ + "+span+span"))
         this.notify(i);
     }, this);
   },
   loggedIn: function() {
-    return !this.document.querySelector(".SignInPopup");
+    return !this.document.querySelector(".GuestBox");
   }
 };
