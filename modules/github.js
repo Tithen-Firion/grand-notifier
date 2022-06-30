@@ -7,7 +7,7 @@ var github = {
   messages: ["New notification."],
   URLs: ["/notifications"],
   process: function() {
-    if(this.document.querySelector(".mail-status.unread"))
+    if(!this.document.querySelector(".mail-status.unread").hasAttribute("hidden"))
       this.notify(0);
   },
   loggedIn: function(xhr) {
