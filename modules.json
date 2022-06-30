@@ -2,55 +2,55 @@
   {
     "ID": "deviantart",
     "name": "DeviantArt",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/4719001000e077d047e8d55ecc768c4fc06b7fff/modules/deviantart.js",
+    "url": "https://cdn.jsdelivr.net/gh/Tithen-Firion/grand-notifier@4719001000e077d047e8d55ecc768c4fc06b7fff/modules/deviantart.js",
     "integrity": "sha384-Ir1kwGM97v223JMvS+bnJTyjvpZvd3dAOPzxlsObZrcFcPIO2U9YPEqPG4Aoxwm7"
   },
   {
     "ID": "disqus",
     "name": "Disqus",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/aebdb834fa7acbec8580a02a2c14b64f51b5c27d/modules/disqus.js",
+    "url": "https://cdn.jsdelivr.net/gh/Tithen-Firion/grand-notifier@aebdb834fa7acbec8580a02a2c14b64f51b5c27d/modules/disqus.js",
     "integrity": "sha384-u2Mu+s/nn8pzdrUsXVOFRy+tW2STdbJDReUCa/q5Wt8/BwZ9ylxei3MEsXvKXgCi"
   },
   {
     "ID": "facebook",
     "name": "Facebook",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/aebdb834fa7acbec8580a02a2c14b64f51b5c27d/modules/facebook.js",
+    "url": "https://cdn.jsdelivr.net/gh/Tithen-Firion/grand-notifier@aebdb834fa7acbec8580a02a2c14b64f51b5c27d/modules/facebook.js",
     "integrity": "sha384-1HR1no+qHT+iF5Uvss+ydvHNX4sbD+6CiPTRJJco5oQUAdlkfaSxfksZ93sygZgZ"
   },
   {
     "ID": "github",
     "name": "Github",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/28a3936fded94155d8b1cdb80c336fb7779b1a5e/modules/github.js",
+    "url": "https://cdn.jsdelivr.net/gh/Tithen-Firion/grand-notifier@98009308b73584264319b61ba689e671f41917da/modules/github.js",
     "integrity": "sha384-SNC6iN4blwMgIyLco92aUsONyf2MrPJNABUjaV545vgF2bzoDLJLXPxBHI/E5y9B"
   },
   {
     "ID": "greasyfork",
     "name": "Greasy Fork",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/61ddd4468ea6cec9bb95b8480b33e82e329fde7c/modules/greasyfork.js",
+    "url": "https://cdn.jsdelivr.net/gh/Tithen-Firion/grand-notifier@61ddd4468ea6cec9bb95b8480b33e82e329fde7c/modules/greasyfork.js",
     "integrity": "sha384-P14HzwTV/IWKLnyzZq3TvMnVfgPy+OORftJR3pX9zll8N+Ag9GgGzmSRI/7/K4St"
   },
   {
     "ID": "instagram",
     "name": "Instagram",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/822f1954f1f3020620ecfec77ae0abffd7a2eb9f/modules/instagram.js",
+    "url": "https://cdn.jsdelivr.net/gh/Tithen-Firion/grand-notifier@822f1954f1f3020620ecfec77ae0abffd7a2eb9f/modules/instagram.js",
     "integrity": "sha384-Ai0ckCwvHQ25Sspbxjlb3ERAmgNAp/A8Z/Kd1pzTD5Np0wTA/xjKrp9MTCpMBf2P"
   },
   {
     "ID": "stackexchange",
     "name": "StackExchange",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ad677423fa220494207eb419c4e16aa01598210/modules/stackexchange.js",
+    "url": "https://cdn.jsdelivr.net/gh/Tithen-Firion/grand-notifier@9ad677423fa220494207eb419c4e16aa01598210/modules/stackexchange.js",
     "integrity": "sha384-3fOWxvhFZJ9T1EGzs5Cx/Scv3kVTuWJoddEsaDBvaESOTOfUCTpx61GEAUzERDLA"
   },
   {
     "ID": "steam",
     "name": "Steam",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/9ffc1939e0dac6460125a76f323a30971e9f995b/modules/steam.js",
+    "url": "https://cdn.jsdelivr.net/gh/Tithen-Firion/grand-notifier@9ffc1939e0dac6460125a76f323a30971e9f995b/modules/steam.js",
     "integrity": "sha384-Dyo30iiLb8vtNBCzQkwlm87TRzQ89dnWhyD4NeDn+a20CnS12pkCoBx7AlQROEq9"
   },
   {
     "ID": "weheartit",
     "name": "We Heart It",
-    "url": "https://cdn.rawgit.com/Tithen-Firion/grand-notifier/4719001000e077d047e8d55ecc768c4fc06b7fff/modules/weheartit.js",
+    "url": "https://cdn.jsdelivr.net/gh/Tithen-Firion/grand-notifier@4719001000e077d047e8d55ecc768c4fc06b7fff/modules/weheartit.js",
     "integrity": "sha384-RakHolIJ7fHhE4aZUIN6vPmZArRumH6THUob0oEQNRImdhHcKqwm6+Qik1JlsloE"
   }
 ]
